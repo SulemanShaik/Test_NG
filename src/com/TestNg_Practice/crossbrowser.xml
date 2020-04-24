@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CrossBrowser" parallel="tests">
+<test  name="crossbrowserTest">
+
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.TestNg_Practice.TC10_CrossBrowserTesting"></class>
+
+
+</classes>
+</test>
+
+
+<test  name="crossbrowserTest1">
+
+<parameter name="browser" value="firefox"/>
+<classes>
+<class name="com.TestNg_Practice.TC10_CrossBrowserTesting"></class>
+
+
+</classes>
+</test>
+</suite>
